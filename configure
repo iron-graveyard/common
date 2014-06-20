@@ -42,6 +42,8 @@ fi
 # Copy dependency targets
 # (symlinking does not work on OS X)
   cp deps/$2$3/* target/$TARGET/lib/
+# Create and update docs in top directory
+  rustdoc -L target/$TARGET/lib/ deps/$2$4/lib.rs
 }
 
 updateDependency https://github.com/iron/iron iron "/target/$TARGET/lib" 'lib'
