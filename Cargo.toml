@@ -1,0 +1,48 @@
+[package]
+
+name = "myserver"
+version = "0.0.0"
+readme = "README.md"
+authors = ["Tony Stark"]
+tags = ["web", "server"]
+
+[dependencies.iron]
+
+git = "https://github.com/iron/iron.git"
+
+[dependencies.urlencoded]
+
+git = "https://github.com/iron/urlencoded.git"
+
+[dependencies.logger]
+
+git = "https://github.com/iron/logger.git"
+
+[dependencies.router]
+
+git = "https://github.com/iron/router.git"
+
+[dependencies.mount]
+
+git = "https://github.com/iron/mount.git"
+
+[dependencies.persistent]
+
+git = "https://github.com/iron/persistent.git"
+
+[dependencies.staticfile]
+
+git = "https://github.com/iron/static-file.git"
+
+[dependencies.session]
+
+git = "https://github.com/iron/session.git"
+
+[dependencies.cookie]
+
+git = "https://github.com/iron/cookie.git"
+
+[dependencies.bodyparser]
+
+git = "https://github.com/iron/body-parser.git"
+
