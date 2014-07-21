@@ -1,15 +1,18 @@
 [package]
 
 name = "core"
-version = "0.0.0"
-readme = "README.md"
+version = "0.1.0"
 authors = [
     "Jonathan Reem <jonathan.reem@gmail.com>",
     "Zach Pomerantz <zmp@umich.edu>",
     "Patrick Tran <patrick.tran06@gmail.com>",
     "Michael Reinhard <mcreinhard@gmail.com>",
     "Tony Stark"]
-tags = ["web", "server"]
+
+[[lib]]
+
+name = "core"
+path = "lib.rs"
 
 [dependencies.iron]
 
