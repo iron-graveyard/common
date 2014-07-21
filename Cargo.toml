@@ -12,7 +12,7 @@ authors = [
 [[lib]]
 
 name = "core"
-path = "lib.rs"
+path = "src/lib.rs"
 
 [dependencies.iron]
 
