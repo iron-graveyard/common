@@ -1,11 +1,11 @@
-core [![Build Status](https://secure.travis-ci.org/iron/core.png?branch=master)](https://travis-ci.org/iron/core)
+common [![Build Status](https://secure.travis-ci.org/iron/common.png?branch=master)](https://travis-ci.org/iron/common)
 ====
 
-> Bundled core middleware for the [Iron](https://github.com/iron/iron) web framework.
+> Bundled common middleware for the [Iron](https://github.com/iron/iron) web framework.
 
 ## Overview
 
-core is a bundling of Iron's core middleware:
+common is a bundling of Iron's common middleware:
 - [Routing](https://github.com/iron/router)
 - [Mounting](https://github.com/iron/mount)
 - [Static file-serving](https://github.com/iron/static-file)
@@ -22,7 +22,7 @@ It is meant as a starting point for your Iron projects, to be easilly copied ove
 
 Just copy the `Cargo.toml` and `Makefile` and you're ready to roll!
 
-## [Documentation](http://docs.ironframework.io/core/iron)
+## [Documentation](http://ironframework.io/doc/iron)
 
 ## Get Help
 

@@ -1,4 +1,4 @@
-#![crate_name = "core"]
+#![crate_name = "common"]
 #![feature(globs)]
 
 extern crate realiron = "iron";

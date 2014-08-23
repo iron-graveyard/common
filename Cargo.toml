@@ -1,6 +1,6 @@
 [package]
 
-name = "core"
+name = "common"
 version = "0.1.0"
 authors = [
     "Jonathan Reem <jonathan.reem@gmail.com>",
@@ -11,7 +11,7 @@ authors = [
 
 [[lib]]
 
-name = "core"
+name = "common"
 path = "src/lib.rs"
 
 [dependencies.iron]
