@@ -1,15 +1,15 @@
 #![crate_name = "common"]
 #![feature(globs)]
 
-extern crate realiron = "iron";
-extern crate realurlencoded = "urlencoded";
-extern crate reallogger = "logger";
-extern crate realrouter = "router";
-extern crate realmount = "mount";
-extern crate realpersistent = "persistent";
-extern crate realsession = "session";
-extern crate realcookie = "cookie";
-extern crate realbodyparser = "bodyparser";
+extern crate "iron" as realiron;
+extern crate "urlencoded" as realurlencoded;
+extern crate "logger" as reallogger;
+extern crate "router" as realrouter;
+extern crate "mount" as realmount;
+extern crate "persistent" as realpersistent;
+extern crate "session" as realsession;
+extern crate "cookie" as realcookie;
+extern crate "bodyparser" as realbodyparser;
 
 pub mod iron { pub use realiron::*; }
 
