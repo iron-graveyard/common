@@ -8,7 +8,7 @@ common [![Build Status](https://secure.travis-ci.org/iron/common.png?branch=mast
 common is a bundling of Iron's common middleware:
 - [Routing](https://github.com/iron/router)
 - [Mounting](https://github.com/iron/mount)
-- [Static file-serving](https://github.com/iron/static-file)
+- [Static file-serving](https://github.com/iron/static)
 - [Body parsing](https://github.com/iron/body-parser)
 - [Url encoding](https://github.com/iron/urlencoded)
 - [Logging](https://github.com/iron/logger)
