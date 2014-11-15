@@ -38,9 +38,9 @@ git = "https://github.com/iron/mount.git"
 
 git = "https://github.com/iron/persistent.git"
 
-[dependencies.static_file]
+[dependencies.static]
 
-git = "https://github.com/iron/static-file.git"
+git = "https://github.com/iron/static.git"
 
 [dependencies.session]
 
